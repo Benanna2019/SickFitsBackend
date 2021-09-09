@@ -53,7 +53,7 @@ export default withAuth(
     db: {
       adapter: "prisma_postgresql",
       url: `${process.env.DATABASE_URL}`,
-      enableLogging: true,
+      // enableLogging: true,
       async onConnect(context) {
         console.log("Connected to the database!");
         if (process.argv.includes("--seed-data")) {
