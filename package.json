@@ -6,7 +6,6 @@
     "dev": "keystone-next dev",
     "start": "keystone-next start",
     "build": "keystone-next build",
-    "seed-data": "keystone-next --seed-data",
     "postinstall": "keystone-next postinstall"
   },
   "dependencies": {
